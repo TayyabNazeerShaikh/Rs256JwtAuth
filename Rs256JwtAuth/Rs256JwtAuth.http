@@ -1,0 +1,6 @@
+@Rs256JwtAuth_HostAddress = http://localhost:5235
+
+GET {{Rs256JwtAuth_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
