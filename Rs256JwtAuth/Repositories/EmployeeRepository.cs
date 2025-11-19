@@ -5,10 +5,10 @@ namespace Rs256JwtAuth.Repositories
     public class EmployeeRepository
     {
         private readonly List<Employee> _employees = new()
-{
-new Employee{ Id = 1, Name = "Admin User", Email = "admin@test.com", Role = "Admin" },
-new Employee{ Id = 2, Name = "Normal User", Email = "user@test.com", Role = "Employee" }
-};
+        {
+        new Employee{ Id = 1, Name = "Admin User", Email = "admin@test.com", Role = "Admin" },
+        new Employee{ Id = 2, Name = "Normal User", Email = "user@test.com", Role = "Employee" }
+        };
 
 
         public List<Employee> GetAll() => _employees;
